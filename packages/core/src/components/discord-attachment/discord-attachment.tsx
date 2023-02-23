@@ -72,7 +72,7 @@ export class DiscordAttachment implements ComponentInterface {
 				return (
 					<Host class="discord-attachment">
 						<div class="discord-image-wrapper">
-							<video src={this.url} height={this.height} width={this.width} />
+							<video src={this.url} height={this.height} width={this.width} controls />
 						</div>
 					</Host>
 				);
