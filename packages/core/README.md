@@ -1,13 +1,16 @@
 # `@derockdev/discord-components-core`
+
 A fork of [@skyra/discord-components-core](https://github.com/skyra-project/discord-components) designed for use in [discord-html-transcripts](https://github.com/itzderock/discord-html-transcripts)
 
 ## Changes
-- Adds `<discord-code-block>`
-- Adds `<discord-header>`
-- Adds better support in `<discord-time>`
-	- Automatically updating based on timestamp and format option
-- Adds better support in `<discord-attachment>`
-	- Adds support for generic attachments, videos, and audio
+
+-   Adds `<discord-code-block>`
+-   Adds `<discord-header>`
+-   Adds better support in `<discord-time>`
+    -   Automatically updating based on timestamp and format option
+-   Adds better support in `<discord-attachment>`
+    -   Adds support for generic attachments, videos, and audio
+-   Adds option to do server-side hydration
 
 ## Original README:
 
