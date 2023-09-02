@@ -26,6 +26,13 @@
 				"import": "./loader/index.js"
 			},
 			"./loader/index.cjs.js"
+		],
+		"./hydrate": [
+			{
+				"require": "./hydrate/index.js",
+				"import": "./hydrate/index.js"
+			},
+			"./hydrate/index.js"
 		]
 	},
 	"sideEffects": [

@@ -26,6 +26,7 @@ export const config: Config = {
 			type: 'www',
 			serviceWorker: null,
 			copy: [{ src: '../static', dest: 'static/' }]
-		}
+		},
+		{ type: 'dist-hydrate-script' }
 	]
 };
