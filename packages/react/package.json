@@ -8,6 +8,7 @@
 	"module": "dist/index.mjs",
 	"typings": "dist/index.d.ts",
 	"exports": {
+		"types": "./dist/index.d.ts",
 		"import": "./dist/index.mjs",
 		"require": "./dist/index.js"
 	},
@@ -22,7 +23,7 @@
 	},
 	"dependencies": {
 		"@derockdev/discord-components-core": "^3.5.1",
-		"tslib": "^2.4.0"
+		"tslib": "^2.6.0"
 	},
 	"peerDependencies": {
 		"react": "16.8.x || 17.x || 18.x",
