@@ -62,7 +62,8 @@
 	},
 	"files": [
 		"dist/",
-		"loader/"
+		"loader/",
+		"hydrate/"
 	],
 	"engines": {
 		"node": ">=v14.0.0"
